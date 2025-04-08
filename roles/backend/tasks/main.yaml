@@ -38,7 +38,7 @@
 #     dest: /app
 #     remote_src: yes
 
-- name: import tasks from commonrole
+- name: import tasks from common role
   ansible.builtin.import_roles:
     name: common
     tasks_from: app-pre-req
